@@ -1,0 +1,393 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(178, 211, 231, 0.3);
+    text-transform: capitalize;
+    font-family: 'Quicksand', sans-serif;
+    }
+    
+.parent{
+    position: absolute;
+    width: 25vw;
+    height: 80vh;
+    margin: 40px 38%;
+    background: rgba(255, 255, 255, 0.9);
+        }
+
+  .logo{
+      display: flex;
+      justify-content: center;
+        }  
+
+
+     .logo img{
+         height: 20vh;
+     }   
+
+.logo+p{
+    text-align: center;
+    margin-top: 15px;
+    }
+.form{
+    margin-top: 15px;
+    margin-left: 30px;
+    }
+
+    .form p{
+        margin-top: 20px;
+    }
+
+
+.input{
+    height: 35px;
+    width: 90%;
+    background: #EDF0F7;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 4.71503px;
+    border: none;
+    }
+
+
+.sign{
+    height: 35px;
+    width: 82%;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    background: #1E96C8;
+    border-radius: 5px;
+    border: none;
+    color: white;
+
+    }
+.sign+p{
+    text-align: center;
+margin-top: 10px;}
+
+.sign+a{
+    text-decoration: none;
+}
+
+
+p+p{
+    text-align: center;
+    margin-top: 12px;
+}
+
+#login{
+    color:rgb(0, 140, 255);
+    }
+
+    #login a{
+        text-decoration: none;
+    }
+
+.icon{
+    display: flex;
+    justify-content: center;
+    }
+
+
+
+    @media screen and (max-width:1280px) {
+
+
+        body{
+            background: rgba(178, 211, 231, 0.3);
+        
+            text-transform: capitalize;
+            }
+            
+        .parent{
+            position: absolute;
+            width: 35vw;
+            height: 65vh;
+            margin: 3% 32%;
+            background: rgba(255, 255, 255, 0.9);
+                }
+        
+          .logo{
+              display: flex;
+              justify-content: center;
+                }  
+        
+        
+             .logo img{
+                 height: 20vh;
+                 margin-top: 10px;
+             }   
+        
+        .logo+p{
+            text-align: center;
+            margin-top: 15px;
+            }
+        .form{
+            margin-top: 15px;
+            margin-left: 17%;
+            }
+        
+            .form p{
+                margin-top: 20px;
+            }
+        
+        
+        .input{
+            height: 40px;
+            width: 80%;
+            background: #EDF0F7;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+            border-radius: 4.71503px;
+            border: none;
+            }
+        
+        
+        .sign{
+            height: 35px;
+            width: 65%;
+            margin-left: 17%;
+            margin-top: 20px;
+            text-transform: capitalize;
+            background: #1E96C8;
+            border-radius: 5px;
+            border: none;
+            color: white;
+        
+            }
+        .sign+p{
+            text-align: center;
+        margin-top: 10px;}
+        
+        a{
+            text-decoration: none;
+            color:  #1E96C8;
+        }
+        a:link{
+            color: darkcyan;
+        }
+        
+
+        
+    }
+
+
+
+
+    @media screen and (max-width:1024px) {
+
+
+        .parent{
+            position: absolute;
+            width: 35vw;
+            height: 65vh;
+            margin: 8% 32%;
+            background: rgba(255, 255, 255, 0.9);
+                }
+        
+          .logo{
+              display: flex;
+              justify-content: center;
+                }  
+        
+        
+             .logo img{
+                 height: 20vh;
+                 margin-top: 10px;
+             }   
+        
+        .logo+p{
+            text-align: center;
+            margin-top: 15px;
+            }
+        .form{
+            margin-top: 15px;
+            margin-left: 14%;
+            }
+        
+            .form p{
+                margin-top: 20px;
+            }
+        
+        
+        .input{
+            height: 40px;
+            width: 85%;
+            background: #EDF0F7;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+            border-radius: 4.71503px;
+            border: none;
+            }
+        
+        
+        .sign{
+            height: 35px;
+            width: 73%;
+            margin-left: 14%;
+            margin-top: 20px;
+            text-transform: capitalize;
+            background: #1E96C8;
+            border-radius: 5px;
+            border: none;
+            color: white;
+        
+            }
+        .sign+p{
+            text-align: center;
+        margin-top: 10px;}
+        a{
+            text-decoration: none;
+            color:  #1E96C8;;
+        }
+        a:link{
+            color: darkcyan;
+        }
+        
+    }
+
+
+
+   
+    
+
+    @media screen and (max-width:920px) {
+
+
+        .parent{
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            margin: 0px 0%;
+            background: rgba(255, 255, 255, 0.9);
+                }
+
+
+             .logo img{
+                 height: 15vh;
+                 margin-top: 30px;
+             }   
+        
+        .logo+p{
+            text-align: center;
+            margin-top: 15px;
+            }
+        .form{
+            margin-top: 15px;
+            margin-left: 20.5%;
+            }
+        
+            .form p{
+                margin-top: 20px;
+            }
+        
+        
+        .input{
+            height: 50px;
+            width: 70%;
+            background: #EDF0F7;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+            border-radius: 4.71503px;
+            border: none;
+            }
+        
+        
+        .sign{
+            height: 50px;
+            width: 56%;
+            margin-left: 20.5%;
+            margin-top: 20px;
+            text-transform: capitalize;
+            background: #1E96C8;
+            border-radius: 5px;
+            border: none;
+            color: white;
+        
+            }
+        .sign+p{
+            text-align: center;
+        margin-top: 10px;}
+
+        a{
+            text-decoration: none;
+            color:  #1E96C8;;
+        }
+        a:link{
+            color: darkcyan;
+        }
+       
+        
+    }
+
+
+
+
+
+    @media screen and (max-width:480px) {
+
+
+
+        .parent{
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(255, 255, 255, 0.9);
+                }
+
+
+             .logo img{
+                 height: 20vh;
+                 margin-top: 13%;
+             }   
+        
+        .logo+p{
+            text-align: center;
+            margin-top: 15px;
+            }
+        .form{
+            margin-top: 15px;
+            margin-left: 15%;
+            }
+        
+            .form p{
+                margin-top: 20px;
+            }
+        
+        
+        .input{
+            margin-top: 10px;
+            height: 35px;
+            width: 80%;
+            background: #EDF0F7;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+            border-radius: 4.71503px;
+            border: none;
+            }
+        
+        
+        .sign{
+            height: 35px;
+            width: 68%;
+            margin-left: 15%;
+            margin-top: 15px;
+            text-transform: capitalize;
+            background: #1E96C8;
+            border-radius: 5px;
+            border: none;
+            color: white;
+        
+            }
+        .sign+p{
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color:  #1E96C8;;
+        }
+        a:link{
+            color: darkcyan;
+        }
+    }

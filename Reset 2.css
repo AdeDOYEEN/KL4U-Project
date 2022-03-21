@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(178, 211, 231, 0.3);
+    text-transform: capitalize;
+    font-family: 'Quicksand', sans-serif;
+    }
+
+.parent{
+    position: absolute;
+    width: 25vw;
+    height: 42vh;
+    margin: 130px 38% ;
+    background: rgba(255, 255, 255, 0.9);
+        }
+
+#re{text-align: center;
+    color: rgb(7, 0, 0);
+    margin-top: 30px;
+    
+}
+
+.ent{
+    color: rgb(7, 1, 1);
+    text-align: center;
+    margin-top: 10px;
+}
+
+        .form{
+            margin-top: 30px;
+            padding-left: 30px;
+            }
+
+        .input{
+            height: 30px;
+            width: 90%;
+            background: #EDF0F7;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+            border-radius: 4.71503px;
+            border: none;
+
+            }
+        
+        .sign{
+            height: 30px;
+            width: 82%;
+            margin-left: 30px;
+            margin-top: 10px;
+            text-transform: capitalize;
+            background: #1E96C8;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            }
+
+            .sign a{
+                text-decoration: none;
+            }
+        
+    
+    
+    
+    @media screen and (max-width:1280px) {
+
+        .parent{
+            position: absolute;
+            width: 28vw;
+            height: 35vh;
+            margin: 14% 35%;
+            background: rgba(255, 255, 255, 0.9);
+                }  
+
+
+
+
+
+
+    .input{
+    height: 30px;
+    width: 90%;
+    background: #EDF0F7;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 4.71503px;
+    border: none;
+
+    }
+
+.sign{
+    height: 30px;
+    width: 83%;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    background: #1E96C8;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    }
+
+    a{
+        text-decoration: none;
+        color:  white;
+    }
+
+    .sign{
+        margin-top: 15px;
+    }
+
+
+    }
+
+
+
+
+
+
+
+            @media screen and (max-width:1024px) {
+                .parent{
+                    position: absolute;
+                    width: 35vw;
+                    height: 35vh;
+                    margin: 15% 32%;
+                    background: rgba(255, 255, 255, 0.9);
+                        }  
+
+
+
+
+
+            .input{
+            height: 30px;
+            width: 90%;
+            background: #EDF0F7;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+            border-radius: 4.71503px;
+            border: none;
+
+            }
+        
+        .sign{
+            height: 30px;
+            width: 83%;
+            margin-left: 30px;
+            margin-top: 10px;
+            text-transform: capitalize;
+            background: #1E96C8;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            }
+
+            .sign{
+                margin-top: 15px;
+            }
+        
+            }
+
+
+
+
+
+            @media screen and (max-width:920px) {
+
+                .parent{
+                    position: absolute;
+                    width: 40vw;
+                    height: 35vh;
+                    margin: 34% 27%;
+                    background: rgba(255, 255, 255, 0.9);
+                        }
+
+                .sign{
+                    margin-top: 15px;
+                }
+            }
+
+
+
+            
+            @media screen and (max-width:580px) {
+
+             .parent{
+            width: 100vw;
+            height: 100vh;
+            margin: 0% 0%;
+            background: rgba(255, 255, 255, 0.9);}
+        
+            #re{text-align: center;
+                color: rgb(7, 0, 0);
+                margin-top: 45%;
+                
+            }
+            
+            .ent{
+                color: rgb(7, 1, 1);
+                text-align: center;
+                margin-top: 30px;
+            }
+            
+                    .form{
+                        margin-top: 40px;
+                        padding-left: 80px;
+                        }
+            
+            
+            
+            
+            
+            
+                        .input{
+                        height: 40px;
+                        width: 80%;
+                        background: #EDF0F7;
+                        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+                        border-radius: 4.71503px;
+                        border: none;
+            
+                        }
+                    
+                    .sign{
+                        height: 35px;
+                        width: 68%;
+                        margin-left: 80px;
+                        margin-top: 20px;
+                        text-transform: capitalize;
+                        background: #1E96C8;
+                        border-radius: 5px;
+                        border: none;
+                        color: white;
+                        }
+        
+                    
+            }
+            
+        
+         
